@@ -20,7 +20,7 @@ export const InitialPage = () => {
         event.preventDefault()
         handleLogin(username)
         
-        navigate('/search', { replace: true })
+        navigate('/', { replace: true })
     }
 
     return (

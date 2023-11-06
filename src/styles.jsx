@@ -55,6 +55,8 @@ const theme = {
     darkBlue:'#2b4e72',
     ligthBlue: '#3b5875',
     red: '#e30224',
+    redMinus:'#FF0000',
+    greenPlus: '#008000',
     orange: '#e6ac27',
   },
   fontSizes: {

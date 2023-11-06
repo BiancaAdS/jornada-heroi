@@ -31,11 +31,11 @@ export const Container = styled.div`
     }
 
     .addIcon {
-        color: green;
+        color: ${props => props.theme.colors.greenPlus};
     }
 
     .removeIcon {
-        color: red;
+        color: ${props => props.theme.colors.redMinus};
     }
     
 `

@@ -12,7 +12,7 @@ export const Header = () => {
 
     const handleLogoutPage = () => {
         handleLogout()
-        navigate('/', { replace: true })
+        navigate('/initial', { replace: true })
     }
 
     return (
